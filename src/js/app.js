@@ -1,9 +1,5 @@
-// TODO: write code here
+import Game from './startgame';
 
-// comment this to pass build
-// const unusedVariable = 'variable';
+const game = new Game(4);
 
-// for demonstration purpose only
-// export default function demo(value) {
-//   return value;
-// }
+game.start();
